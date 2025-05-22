@@ -1,3 +1,5 @@
-let person = "vageesha";
+function sum (a, b) {
+    return a + b;
+}
 
-console.log(person.charAt(0).toUpperCase() + person.slice(1));
+module.exports = sum;
